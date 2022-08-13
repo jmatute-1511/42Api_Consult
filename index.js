@@ -58,6 +58,7 @@ const main = async() =>
         {
             console.log(hours_split[it])
             let slice = hours_split[it].slice(hours_split[it].indexOf(":") + 2, hours_split[it].indexOf("."))
+            console.log();
             console.log(slice)
             it++;
         }
